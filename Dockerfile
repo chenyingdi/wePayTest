@@ -6,7 +6,7 @@ ENV GOPROXY https://goproxy.cn
 
 WORKDIR /go/src/chenyingdi/wePayTest/
 
-COPY main.go .
+COPY . .
 
 RUN go build .
 
